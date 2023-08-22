@@ -1,0 +1,5 @@
+---
+# tasks file for uninstall
+- name: Uninstall pkg
+  include_tasks:
+    file: delete_pkg.yaml
