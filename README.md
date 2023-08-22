@@ -18,3 +18,6 @@ ansible-galaxy collection install community.general --force
 ```Bash
 ansible-playbook zabbix-agent2.yaml -e "hosts=YOUR-HOST-NAME"
 ```
+```Bash
+ansible-playbook -i inventory/inventory.ini uninstall.yaml
+```
